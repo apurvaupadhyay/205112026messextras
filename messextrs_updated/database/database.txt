@@ -1,0 +1,122 @@
+TABLES CREATED : 
+1)LOGIN TABLE :
+create table login(rno varchar2(9) primary key,password varchar2(10),hint varchar2(15));
+
+
+2)ACCOUNT TABLE:
+create table account
+(rno varchar(9)primary key, name varchar2(20),phone varchar2(10), 
+Course varchar2(20),dept varchar2(20), Hname varchar2(20), hroom varchar2(20),cbal varchar2(10));
+
+
+3)DISH TABLE
+create table dish(did varchar2(3),dname varchar2(20),rate varchar2(5),schedule varchar2(2),
+availability varchar2(5),primary key(did,schedule));
+
+INSERTED VALUES :
+1) LOGIN TABLE :
+insert into login values('205112026','apurva','name');
+insert into login values('205112012','kallu','nickname');
+insert into login values('205112088','mujavdiya','surname');
+insert into login values('205112039','neelam','name');
+insert into login values('205112066','goyal','surname');
+
+
+2) ACCOUNT TABLE :
+insert into account values('205112088','payal','9926181891','msc','ca','opale','197','50');
+insert into account values('205112039','neelam','7242679891','btech','cl','opald','123','5');
+insert into account values('205112026','apurva','9043876649','mca','ca','opale','53','1000');
+insert into account values('205112012','kalyani','9843877891','mca','ca','opala','20','500');
+insert into account values('205112066','shruti','8043567897','btech','civil','opald','200','100');
+
+
+3) DISH TABLE :
+
+insert into dish values('101','milk','6','b','yes');
+insert into dish values('101','milk','6','d','no');
+insert into dish values('102','omlet','7','b','no');
+insert into dish values('103','chicken','27','d','yes');
+insert into dish values('102','omlet','7','l','no');
+insert into dish values('104','panner','35','d','no');
+insert into dish values('105','gobi65','25','l','yes');
+insert into dish values('106','aallu','60','l','yes');
+insert into dish values('107','boost','9','b','yes');
+insert into dish values('108','egg','10','l','yes');
+
+
+ACCOUNT TABLE :
+
+RNO       NAME                 PHONE      COURSE
+--------- -------------------- ---------- --------------------
+DEPT                 HNAME                HROOM                CBAL
+-------------------- -------------------- -------------------- ----------
+205112088 payal                9926181891 msc
+ca                   opale                197                  50
+
+205112039 neelam               7242679891 btech
+cl                   opald                123                  5
+
+205112026 apurva               9043876649 mca
+ca                   opale                53                   1664
+
+
+RNO       NAME                 PHONE      COURSE
+--------- -------------------- ---------- --------------------
+DEPT                 HNAME                HROOM                CBAL
+-------------------- -------------------- -------------------- ----------
+205112012 kalyani              9843877891 mca
+ca                   opala                20                   500
+
+205112066 shruti               8043567897 btech
+civil                opald                200                  100
+
+205112027 saloni               7685645434 mca
+ca                   opala                89                   100
+
+
+RNO       NAME                 PHONE      COURSE
+--------- -------------------- ---------- --------------------
+DEPT                 HNAME                HROOM                CBAL
+-------------------- -------------------- -------------------- ----------
+205112025 ruhi                 7656453434 mca
+ca                   opale                77                   173
+
+
+
+RNO       PASSWORD   HINT
+--------- ---------- --------
+205112026 apurva     name
+205112012 kallu      nickname
+205112088 mujavdiya  surname
+205112039 neelam     name
+205112066 goyal      surname
+205112027 gupta      surname
+205112025 ruhi       name
+
+
+
+DID DNAME                RATE  SC AVAIL
+--- -------------------- ----- -- -----
+101 milk                 6     b  yes
+101 milk                 6     d  no
+102 omlet                7     b  no
+103 chicken              27    d  yes
+102 omlet                7     l  no
+104 panner               35    d  no
+105 gobi65               25    l  yes
+106 aallu                60    l  yes
+107 boost                9     b  yes
+108 egg                  10    l  yes
+
+
+
+
+
+
+
+
+
+
+
+
+
