@@ -64,8 +64,10 @@ NOTE : oracle 10 g is used for database
 for data sourse= nitt
 userid = mca1226
 password = User202
- if in any case password is changed you need to use new 
- id password and need to change connection string in every form load
+ if in any case password is changed you need to use new id password .you can use the below password you need to 
+ update this user and password in the connection string for every form load.
+ userid : mca1277
+ password : User178
 
 
 
