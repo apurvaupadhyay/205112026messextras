@@ -1,6 +1,9 @@
 Read this file before going through project and follow the steps given in file
 Use the passwords given in readmefile to execute project
 
+messextas folder : first version
+messextras_updated : final project submmitted
+
 note :
 all the validations has been done the project 
 
